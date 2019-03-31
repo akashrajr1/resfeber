@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Dimensions, StyleSheet, View } from 'react-native';
+import { Dimensions, StyleSheet, View,Text } from 'react-native';
 import MapView from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 
@@ -10,7 +10,7 @@ const LONGITUDE = -122.4053769;
 const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
-const GOOGLE_MAPS_APIKEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+const GOOGLE_MAPS_APIKEY = 'LULZ';
 
 class NavigationComponent extends Component {
 
@@ -21,8 +21,8 @@ class NavigationComponent extends Component {
     this.state = {
       coordinates: [
         {
-          latitude: 34.0522,
-          longitude: -118.2437,
+          latitude: 40.7,
+          longitude: -73.99,
         },
         {
           latitude: 36.1699,
@@ -94,20 +94,21 @@ class NavigationComponent extends Component {
 
 const styles = {
 	containerStyle: {
-		flex:1,
+		flex:4,
 		justifyContent: 'center',
+    alignItems: 'stretch',
     height: Dimensions.get('window').height,
     width: Dimensions.get('window').width,
 		alignItems: 'center',
 		backgroundColor: 'lightblue'
 	},
-
+//Dimensions.get('window').height
 	mapStyle: {
 		left: 0,
 		right: 0,
 		top: 0,
-		bottom: 0,
-		position: 'absolute'
+		bottom: 0
+		//position: 'absolu'
 	}
 
 }

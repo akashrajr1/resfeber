@@ -10,6 +10,7 @@ import MarkAsVisitedScreen from "./screens/MarkAsVisitedScreen";
 import RoadTripPlaylistScreen from "./screens/RoadTripPlaylistScreen";
 import NearestGasStationScreen from "./screens/NearestGasStationScreen";
 import BookAHotelRoomScreen from "./screens/BookAHotelRoomScreen";
+import FindHitchBuddiesScreen from "./screens/FindHitchBuddiesScreen";
 
 const App = () => (
     <Router navigationBarStyle={{ backgroundColor: '#ffcc00' }}>
@@ -62,6 +63,12 @@ const App = () => (
                 type="replace"
                 title="Resfeber"
                 component={BookAHotelRoomScreen}
+            />
+            <Scene
+                key="hitchBuddies"
+                type="replace"
+                title="Resfeber"
+                component={FindHitchBuddiesScreen}
             />
         </Scene>
     </Router>

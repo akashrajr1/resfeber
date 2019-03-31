@@ -5,13 +5,14 @@ import { Actions } from "react-native-router-flux";
 
 import Footer from '../src/components/NavigationScreenFooter';
 import NavigationComponent from '../src/components/NavigationComponent';
+import InfographicComponent from '../src/components/InfographicComponent';
 
 export class NavigationScreen extends Component {
   render() {
     return (
-      <View style={{flex:1}}>
+      <View style={{flex:5}}>
         <NavigationComponent/>
-        <Text> YO</Text>
+        <InfographicComponent/>
         <Footer/>
       </View>
     )
