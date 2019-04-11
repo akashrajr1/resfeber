@@ -13,7 +13,7 @@ export default class CardImageExample extends Component {
                 <Body>
                   <Text>  Turn Right at 1st Cross Street onto </Text>
                   <Text>  Howard Street.</Text>
-                  <Text note>   Song:  </Text>
+                  <Text note>  Salesforce HQ Tower (326 Mt.) on your left! One of the tallest buildings in SF!</Text>
                 </Body>
             </CardItem>
           </Card>

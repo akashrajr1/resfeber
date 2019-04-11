@@ -11,7 +11,7 @@ export class FindHitchBuddiesScreen extends Component {
       <View style={{flex:0.893}}>
         <ScrollView>
         <View style={{flex:1}}>
-          <ImageBackground style={{height: 165, width: Dimensions.get('window').width}} source={require('../src/images/hitch.jpg')}>
+          <ImageBackground style={{height: 150, width: Dimensions.get('window').width}} source={require('../src/images/hitch.jpg')}>
             <View style={{top: 10, left: 10, right: 0, bottom: 0}}>
               <Text style={{fontSize: 20, fontWeight: 'bold', color: '#ffffff'}}>New Friends. New Experiences</Text>
               <Text style={{fontSize: 12, fontWeight: 'bold', color: '#ffffff'}}>Discover people around you and offer rides. </Text>

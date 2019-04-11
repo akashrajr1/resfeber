@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, ImageBackground, Dimensions } from 'react-native';
+import { Text, View, ImageBackground, Dimensions, ScrollView } from 'react-native';
 import { Actions } from "react-native-router-flux";
 
 
@@ -11,11 +11,11 @@ import InfographicComponent2 from '../src/components/InfographicComponent2';
 export class NavigationScreen extends Component {
   render() {
     return (
-      <View style={{flex:2}}>
-        <ImageBackground style={{height: 395, width: Dimensions.get('window').width}} source={require('../src/images/navigate2.jpg')}>
-        </ImageBackground>
-        <InfographicComponent2/>
-        <Footer/>
+      <View style={{flex:1}}>
+          <ImageBackground style={{height: 320, width: Dimensions.get('window').width}} source={require('../src/images/navigate2.jpg')}>
+          </ImageBackground>
+          <InfographicComponent2/>
+          <Footer/>
       </View>
     )
   }
