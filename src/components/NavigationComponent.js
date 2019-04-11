@@ -10,7 +10,7 @@ const LONGITUDE = -122.4053769;
 const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
-const GOOGLE_MAPS_APIKEY = 'LULZ';
+const GOOGLE_MAPS_APIKEY = 'AIzaSyBJ5uRqrPjwpADUuSbDABgq1n7BzMIAFek';
 
 class NavigationComponent extends Component {
 

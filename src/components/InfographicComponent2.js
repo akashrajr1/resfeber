@@ -9,11 +9,11 @@ export default class CardImageExample extends Component {
         <Content>
           <Card>
             <CardItem>
-                <Image source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/las_vegas.jpg')}  style={{width: 50, height: 50}}/>
+                <Image source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/right_turn.jpg')}  style={{width: 50, height: 50}}/>
                 <Body>
-                  <Text>  Vegas Baaaaby! Time to hit the road!</Text>
-                  <Text>  Lets get your jam on!</Text>
-                  <Text note>  Go to More -> Road Trip Playlist</Text>
+                  <Text>  Turn Right at 1st Cross Street onto </Text>
+                  <Text>  Howard Street.</Text>
+                  <Text note>   Song:  </Text>
                 </Body>
             </CardItem>
           </Card>
