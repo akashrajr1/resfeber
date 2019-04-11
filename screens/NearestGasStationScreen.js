@@ -41,6 +41,8 @@ export class ActivitiesScreen extends Component {
                         <Image source={require('../src/images/mcd.jpg')} style={{height: 30, width: 30}}/>
                         <View style={{width: 10}}/>
                         <Image source={require('../src/images/se.jpg')} style={{height: 30, width: 30}}/>
+                        <View style={{width: 10}}/>
+                        <Image source={require('../src/images/toilets.jpg')} style={{height: 30, width: 33}}/>
                       </View>
                       <View style={{height: 10, width: 10}}/>
                       <Text note>0.5 Miles Away</Text>
@@ -74,6 +76,8 @@ export class ActivitiesScreen extends Component {
                         <Image source={require('../src/images/king.jpg')} style={{height: 30, width: 30}}/>
                         <View style={{width: 10}}/>
                         <Image source={require('../src/images/se.jpg')} style={{height: 30, width: 30}}/>
+                        <View style={{width: 10}}/>
+                        <Image source={require('../src/images/toilets.jpg')} style={{height: 30, width: 33}}/>
                       </View>
                       <View style={{height: 10, width: 10}}/>
                       <Text note>0.7 Miles Away</Text>
@@ -107,6 +111,7 @@ export class ActivitiesScreen extends Component {
                       <View style={{flex:1, flexDirection:'row'}}>
                         <Image source={require('../src/images/se.jpg')} style={{height: 30, width: 30}}/>
                         <View style={{width: 10}}/>
+                        <Image source={require('../src/images/toilets.jpg')} style={{height: 30, width: 33}}/>
                       </View>
                       <View style={{height: 10, width: 10}}/>
                       <Text note>2 Miles Away</Text>
