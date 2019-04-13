@@ -11,16 +11,30 @@ import RoadTripPlaylistScreen from "./screens/RoadTripPlaylistScreen";
 import NearestGasStationScreen from "./screens/NearestGasStationScreen";
 import BookAHotelRoomScreen from "./screens/BookAHotelRoomScreen";
 import FindHitchBuddiesScreen from "./screens/FindHitchBuddiesScreen";
+import InitialFormScreen from "./screens/InitialFormScreen";
+import SplashScreen from "./screens/SplashScreen";
 
 const App = () => (
     <Router navigationBarStyle={{ backgroundColor: '#ffcc00' }}>
         <Scene key="root">
             <Scene
+                key="splash"
+                type="replace"
+                title="Resfeber"
+                component={SplashScreen}
+                initial
+            />
+            <Scene
+                key="init"
+                type="replace"
+                title="Resfeber"
+                component={InitialFormScreen}
+            />
+            <Scene
                 key="navigation"
                 type="replace"
                 title="Resfeber"
                 component={NavigationScreen}
-                initial
             />
             <Scene
                 key="activities"
