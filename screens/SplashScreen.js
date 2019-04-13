@@ -5,13 +5,20 @@ import { Container, Header, Content, Card, CardItem, Thumbnail, Button, Icon, Le
 
 export class InitialFormScreen extends Component {
   componentDidMount(){
-    setInterval( () => {
+    setTimeout( () => {
       Actions.init()
     },3000)
   }
   render() {
     return (
-      <Text> Yo </Text>
+      <Content>
+        <Card>
+          <View style={{height:75}}/>
+          <ImageBackground style={{backgroundColor:'#ffc000', height: 350, width: 353}} source={require('../src/images/logo.jpg')}>
+          </ImageBackground>
+          <View style={{height:75}}/>
+        </Card>
+      </Content>
     )
   }
 };

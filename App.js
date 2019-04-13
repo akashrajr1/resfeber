@@ -22,13 +22,13 @@ const App = () => (
                 type="replace"
                 title="Resfeber"
                 component={SplashScreen}
+                initial
             />
             <Scene
                 key="init"
                 type="replace"
                 title="Resfeber"
                 component={InitialFormScreen}
-                initial
             />
             <Scene
                 key="navigation"
