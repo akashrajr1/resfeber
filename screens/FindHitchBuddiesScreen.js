@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, ScrollView, ImageBackground, Dimensions } from 'react-native';
+import { View, ScrollView, ImageBackground, Dimensions, ToastAndroid } from 'react-native';
 import { Actions } from "react-native-router-flux";
 import Footer from '../src/components/MoreScreenFooter';
 
@@ -22,12 +22,12 @@ export class FindHitchBuddiesScreen extends Component {
               <Card>
                 <CardItem>
                   <Left>
-                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/food_screen.jpg')} />
+                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/liam.jpg')} />
                     <Text>Liam</Text>
                     <Text note> USA</Text>
                   </Left>
                   <Right>
-                    <Icon name='paper-plane'style={{ color: "#000000" }} />
+                    <Icon name='paper-plane'style={{ color: "#000000" }} onPress={() => {ToastAndroid.show('Wohoooo! Navigating to Liam!', ToastAndroid.SHORT);}} />
                     <Text note> 0.5 miles </Text>
                   </Right>
                 </CardItem>
@@ -43,12 +43,12 @@ export class FindHitchBuddiesScreen extends Component {
               <Card>
                 <CardItem>
                   <Left>
-                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/food_screen.jpg')} />
+                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/melissa.jpg')} />
                     <Text>Melissa</Text>
                     <Text note> USA</Text>
                   </Left>
                   <Right>
-                    <Icon name='paper-plane'style={{ color: "#000000" }} />
+                    <Icon name='paper-plane'style={{ color: "#000000" }}  onPress={() => {ToastAndroid.show('Wohoooo! Navigating to Melissa!', ToastAndroid.SHORT);}} />
                     <Text note> 0.7 miles </Text>
                   </Right>
                 </CardItem>
@@ -64,62 +64,42 @@ export class FindHitchBuddiesScreen extends Component {
               <Card>
                 <CardItem>
                   <Left>
-                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/food_screen.jpg')} />
-                    <Text>Mike</Text>
-                    <Text note> USA</Text>
+                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/adrian.jpg')} />
+                    <Text>Harshdeep</Text>
+                    <Text note> India</Text>
                   </Left>
                   <Right>
-                    <Icon name='paper-plane'style={{ color: "#000000" }} />
+                    <Icon name='paper-plane'style={{ color: "#000000" }}  onPress={() => {ToastAndroid.show('Wohoooo! Navigating to Harshdeep!', ToastAndroid.SHORT);}} />
                     <Text note> 0.8 miles </Text>
                   </Right>
                 </CardItem>
                 <CardItem>
-                  <Text>I  like to paint and do gardening, and occasionaly go for hiking trips!</Text>
+                  <Text>I just moved to the US, teach Computer Science at Columbia, and love exploring new places, food and cultures.</Text>
                 </CardItem>
                 <CardItem>
-                  <Text note> Speaks English and Spanish.</Text>
+                  <Text note> Speaks English and Hindi.</Text>
                 </CardItem>
               </Card>
             </Content>
+
             <Content>
               <Card>
                 <CardItem>
                   <Left>
-                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/food_screen.jpg')} />
-                    <Text>Hank</Text>
-                    <Text note> USA</Text>
-                  </Left>
-                  <Right>
-                    <Icon name='paper-plane'style={{ color: "#000000" }} />
-                    <Text note> 0.8 miles </Text>
-                  </Right>
-                </CardItem>
-                <CardItem>
-                  <Text>I  like to paint and do gardening, and occasionaly go for hiking trips!</Text>
-                </CardItem>
-                <CardItem>
-                  <Text note> Speaks English and Spanish.</Text>
-                </CardItem>
-              </Card>
-            </Content>
-            <Content>
-              <Card>
-                <CardItem>
-                  <Left>
-                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/food_screen.jpg')} />
+                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/nikita.jpg')} />
                     <Text>Nikita</Text>
                     <Text note> Russia</Text>
                   </Left>
                   <Right>
-                    <Icon name='paper-plane'style={{ color: "#000000" }} />
-                    <Text note> 0.8 miles </Text>
+                    <Icon name='paper-plane'style={{ color: "#000000" }}  onPress={() => {ToastAndroid.show('Wohoooo! Navigating to Nikita!', ToastAndroid.SHORT);}} />
+                    <Text note> 0.95 miles </Text>
                   </Right>
                 </CardItem>
                 <CardItem>
-                  <Text>I  like to paint and do gardening, and occasionaly go for hiking trips!</Text>
+                  <Text>Hiker, Traveler, Always Curious!</Text>
                 </CardItem>
                 <CardItem>
-                  <Text note> Speaks English and Spanish.</Text>
+                  <Text note> Speaks English and Russian.</Text>
                 </CardItem>
               </Card>
             </Content>
@@ -127,20 +107,20 @@ export class FindHitchBuddiesScreen extends Component {
               <Card>
                 <CardItem>
                   <Left>
-                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/food_screen.jpg')} />
-                    <Text>Xiang Yu</Text>
-                    <Text note> China</Text>
+                    <Thumbnail circle style={{height: 50, width:50}} source={require('D:/Work/Booking.com Hackathon/Resfeber/src/images/val.jpg')} />
+                    <Text>Valentina</Text>
+                    <Text note> Italy</Text>
                   </Left>
                   <Right>
-                    <Icon name='paper-plane'style={{ color: "#000000" }} />
-                    <Text note> 0.8 miles </Text>
+                    <Icon name='paper-plane'style={{ color: "#000000" }}  onPress={() => {ToastAndroid.show('Wohoooo! Navigating to Valentina!', ToastAndroid.SHORT);}} />
+                    <Text note> 1.2 miles </Text>
                   </Right>
                 </CardItem>
                 <CardItem>
-                  <Text>I  like to paint and do gardening, and occasionaly go for hiking trips!</Text>
+                  <Text>School teacher. Curiosity drives me to explore new places and get a better perspective of the world we imhabit.</Text>
                 </CardItem>
                 <CardItem>
-                  <Text note> Speaks English and Spanish.</Text>
+                  <Text note> Speaks English, Italian, and Spanish.</Text>
                 </CardItem>
               </Card>
             </Content>
